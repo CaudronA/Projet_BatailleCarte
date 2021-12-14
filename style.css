@@ -16,8 +16,22 @@ body{
     justify-content: center;
     align-items: center;
     border-radius: 10px;
+    position: relative;
 
 }
+.boutonJ1{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.boutonJ2{
+    position: absolute;
+    bottom: 0;
+    left:0;
+}
+
+
+
 .milieu {
     width: 250px;
     height: 250px;
@@ -26,13 +40,28 @@ body{
     border-radius: 10px;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 #bouton{
     background-color: #006e00;
     color: white;
     border-radius: 10px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
 
+}
+.carteJ1{
+    top:50%;
+    left:50%;
+    transform: translate(33%,-50%);
+}
+.carteJ2{
+    bottom:40%;
+    left:50%;
+    transform: translate(33%,-35%);
 }
 
 
